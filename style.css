@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div {
+    border: solid 1px;
+    border-color:black;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+}
+
+.showBorder {
+    border: solid 1px;
+    border-color:black;
+}
+
+#divMain {
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 600px;
+    grid-template-rows: 400px 200px;
+    row-gap: 5px;
+}
+
+#divVisual {
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: 75% 25%;
+}
+
+#divVisualHistory {
+    display:block;
+}
+
+#divVisualWritingField {
+    border: solid 2px;
+    border-color: blue;
+}
+
+#divControl {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 19% 76%;
+    grid-row-gap: 5%;
+}
+
+#divControlPanel {
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    grid-template-rows: 100%;
+    grid-column-gap: 2.5%;
+}
+
+#divControlPanelLeft {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0%;
+}
+
+#divControlPanelCenter {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0%;
+}
+
+#divControlPanelRight {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0%;
+}
+
+#divControlButtonsAbc {
+    display: none;
+}
+
+#divControlButtonsFunc {
+    display: none;
+}
+
+#divControlButtonsMain {
+    display:grid;
+    grid-template-columns: 30% 35% 30%;
+    grid-template-rows: 100%;
+    grid-column-gap: 2.5%;
+}
+
+#divControlButtonsMainLeft {
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#divControlButtonsMainCenter{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#divControlButtonsMainRight {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 25% 25%;
+}
+
+#divControlButtonsMainRightTop{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}

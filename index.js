@@ -1,0 +1,1 @@
+document.getElementById('gog').innerHTML = 5;
